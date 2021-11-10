@@ -13,6 +13,9 @@ server/__pycache__
 # production
 /build
 
+# secrets
+server/config.py
+
 # misc
 .DS_Store
 .env.local
