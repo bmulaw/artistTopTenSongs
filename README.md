@@ -6,4 +6,4 @@ This is a music app that lets you listen to music and find other music that it h
 
 Directions to be provided
 
-### credits: Bernard Mulaw (Software Engineer), Della Lin (Software Engineer), Noel Yuson (UI/UX Designer)
+#### credits: Bernard Mulaw (Software Engineer), Della Lin (Software Engineer), Bjoern Hasemann (Software Engineer), Noel Yuson (UI/UX Designer)
