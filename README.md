@@ -6,11 +6,13 @@ This is a music app that lets you listen to music and find other music that it h
 
 More directions to be provided but for now:
 
-1. run app.py in server folder
+1. once cloned app to local machine, go to terminal and cd into the main app
+2. in terminal, cd into client folder and run `npm run start-app`
+3. in terminal, cd ../server and run `flask run`
+4. page will render a frontend page asking you to put in an artist name
+5. type artist name and press submit button (exlude `the` in artist name)
+6. enjoy the top ten popular songs of the artist and the samples in those songs
 
-2. in localhost:5000 link in web browser, add "/" and the name of the artist you like (space is ok).
-
-3. page will render the top 10 most popular songs by the artist and each song's sample!
 
 ### credits: 
 
