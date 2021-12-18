@@ -10,7 +10,7 @@ More directions to be provided but for now:
 2. in terminal, cd into client folder and run `npm run start-app`
 3. in terminal, cd ../server and run `flask run`
 4. page will render a frontend page asking you to put in an artist name
-5. type artist name and press submit button (exlude `the` in artist name)
+5. type artist name and press submit button (exlude "the" in artist name)
 6. enjoy the top ten popular songs of the artist and the samples in those songs
 
 
