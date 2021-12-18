@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Form from './components/Form'
 import './App.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p> The connection between React and Flask is {status}</p>
+        <Form/>
       </header>
     </div>
   );
