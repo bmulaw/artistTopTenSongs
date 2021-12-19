@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import Loader from "react-loader-spinner";
+// import Loading from './Loading'
 
 export default class Form extends Component {
     constructor(props){
         super(props)
         this.state = {
+          loading: false,
           list: '',
           artist: ''
         }
@@ -13,7 +17,7 @@ export default class Form extends Component {
         this.setState({artist: event.target.value});
     }
 
-    getArtistData = () => {
+    getArtistData = async () => {
         fetch('/'+this.state.artist)
         .then(res => res.json())
         .then(data => {
@@ -28,11 +32,13 @@ export default class Form extends Component {
                 items += `</ol> </h3>`
             }
             this.setState({list: items})
+            this.setState({loading: false})
         }, [])
     }
 
     handleSubmit = event => {
         event.preventDefault();
+        this.setState({loading: true});
         this.getArtistData(this.state.artist);
     }
 
@@ -57,6 +63,7 @@ export default class Form extends Component {
                 </button>
             </form>
             <ul dangerouslySetInnerHTML={{__html: data}}></ul>
+            <Loader type="Circles" color="#00BFFF" height={80} width={80}/>
             </div>
         ) 
     }
