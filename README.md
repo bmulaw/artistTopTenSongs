@@ -12,12 +12,3 @@ More directions to be provided but for now:
 
 3. page will render the top 10 most popular songs by the artist and each song's sample!
 
-### credits: 
-
-#### Bernard Mulaw (Software Engineer),
-
-#### Della Lin (Software Engineer),
-
-#### Bjoern Hasemann (Software Engineer),
-
-#### Noel Yuson (UI/UX Designer)
